@@ -6,16 +6,17 @@
     <title>Web Personal</title>
     <link rel="stylesheet" type="text/css" href="estilo.css">
     <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="shortcut icon" href="images/iconoPrincipal.ico" />
 </head>
 
 <body>
     <nav class="barra" id="menu">
-        <a href="#menu" id="este">Inicio</a>
-        <a href="#autobiografía">Autobiografía</a>
-        <a href="#hobby">Hobby</a>
-        <a href="#tema">Tema de interes</a>
-        <a href="#aside">Aside</a>
-        <a href="#final">Final</a>
+        <a href="#menu" id="este" class="principal">Inicio</a>
+        <a href="#autobiografía" class="principal">Autobiografía</a>
+        <a href="#hobby" class="principal">Hobby</a>
+        <a href="#tema" class="principal">Tema de interes</a>
+        <a href="#aside" class="principal">Aside</a>
+        <a href="#final" class="principal">Final</a>
     </nav>
     
 
@@ -35,27 +36,27 @@
     
     <aside id="aside">
         <h2>Buenas peliculas y series</h1>
-            <ul id="ul">
-                <li>El rey león</li>
-                <li>Lost</li>
-                <li>Proyecto x</li>
-                <li>How I Met Your Mother</li>
-                <li>Super cool</li>
-            </ul>
-        
-            <div class="cuadro">
-        
-            </div>
+        <ul id="ul">
+            <li>El rey león</li>
+            <li>Lost</li>
+            <li>Proyecto x</li>
+            <li>Breaking Bad</li>
+            <li>Super cool</li>
+        </ul>
+
+        <div class="cuadro">
+            <img src="images/icono2.ico" class="icono">
+        </div>
     </aside>
 
     <article id="hobby" class="a" >
         <div>
-            <img src="images/control.jpg" class="tipo1">
+            <img src="images/gameboygames-116042_115994.png" class="tipo1">
             <h1>Hobbies</h1>
             <p>Mi hobby al cual le doy demasiado de mi tiempo serian los video juegos, de los que mas juego son lol, 
                 hearthstone y world of warcraft. tambien me gusta escuchar musica mientras juego, hago tareas,
                 otro hobby al que le dedico mucho tiempo es ver streams en twitch, cuando trabajo o necesito concentrarme necesito estar escuhcando algo de fondo, 
-                la mayoria del tiempo no presto atencion a lo que dice la cancion o de lo que hablan en el stream, basicamnete necesito escuchar algo en mis audifonos para concentrarme.  
+                la mayoria del tiempo no presto atencion a lo que dice la cancion o de lo que hablan en el stream, basicamente necesito escuchar algo en mis audifonos para concentrarme.  
             </p>
         </div>
     </article>
@@ -64,19 +65,23 @@
         <div>
             <img src="images/viko.png" class="tipo1">
             <h1>Mi gato</h1>
-            <p>El es mi gato viko, tiene 7 años, la mator parte del tiempo se la pasa dormido en mi en la esquina de mi cama.
+            <p>El es mi gato viko, tiene 7 años, la mayor parte del tiempo se la pasa dormido en mi en la esquina de mi cama.
             </p>
         </div>
     </article>
 
 
 
-        
-
+    
     
 
     <footer id="final">
-
+        <form>
+            <input type="text" placeholder="Nombre" class="asda">
+            <input type="email" placeholder="Email" class="asda">
+            <input type="tel" placeholder="Teléfono" class="asda">
+            <input type="button" value="Enviar" class="boto">
+        </form>
         <p class="mio">Hecho por Diego Emilio Ruiz Navarro ©</p>
     </footer>
 </body>
