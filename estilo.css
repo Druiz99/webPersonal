@@ -1,17 +1,22 @@
 body{
     margin: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #1a2928;
+    background: gray;
 }
 nav{
-    background: gray;
+    background: black;
     font-size: 15px;
     text-align: right;
     width: 100%;
     height: 35px;
     padding-top: 10px;
+    margin-bottom: 40px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 a{
-    color: black;
+    color: wheat;
     text-decoration: none;
     padding: 17px;
     font-family:  Tahoma;
@@ -19,26 +24,86 @@ a{
 }
 
 a:hover{
-    color: yellow;
+    color: gray;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 
-header{
-    position: relative;
+img:hover{
+    border-radius: 10%;
+    transform: scale(.8);
+    filter: grayscale(1%);
+}
+
+img{
+    border-radius: 50%;
+    transform: scale(.6);
+    filter: grayscale(90%);
+}
+
+div{
+    text-align: center;
 }
 
 article{
     display: inline-block;
     margin: 5px;
-    background: #E9967A;
-    width: 97%;
-    padding: 10px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+    background: #0b7570;
+    width: 60%;
+    padding: 20px;
+    border-radius: 80px;
+    box-shadow: 5px 10px 18px black;
 }
 
-img{
+img.tipo1{
     float: left;
 }
 
+.tipo2 {
+    float: left;
+}
+
+
+
+aside{
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    margin: 10px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 5px 10px 18px black;
+    background-image: linear-gradient(to bottom right,#469f7b, paleturquoise);
+}
+
+li{
+    margin: 2px;
+    font-size: 16px;
+}
+
+li:hover{
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+form{
+    margin: 5px;
+}
+
+input{
+    margin: 15px;
+}
+
+input:focus{
+    border-radius: 8px;
+    border-color: #27a8ee;
+    border-style: double;
+}
 
 footer{
     display: inline-block;
@@ -46,7 +111,9 @@ footer{
     color: white;
     opacity: .9;
     width: 100%;
+    padding-top: 15px;
     padding-bottom: 30px;
+    margin-top: 10px;
 }
 
 .mio{
